@@ -1,5 +1,5 @@
 # modbus OPCUA class 
-To familiarize with Modbus and OPC UA protocols with exercises
+To familiarize with Modbus(RTU/TCP) and OPC UA protocols with exercises
 ## Exercises
 1. Install software: a. For Modbus: ModbusPoll and ModbusSlave. (from https://www.modbustools.com/) b. For OPC UA: Edgelink (from Adventech.com)
 2. Modbus test: PC (ModbusPoll) to PC (ModbusSlave)
