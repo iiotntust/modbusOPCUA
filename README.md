@@ -9,7 +9,7 @@ Notice: PC Modbus tool (ModbusPoll) should acquire data by the mapping register 
 6. OPC UA Data Center: create tags (ID1: humi/temp., ID2: I/O relay, ID3: Powermeter)
 7. OPC UA Service: configure tags for OPC server
 8. Install OPC UA client: UaExpert Client, and use it to access OPC UA data
-9. I/O Box: wire sensor, swith, alarm to ADAM6717 (OPC UA gateway) and WISE4051 (WiFi gateway); conduct wet contact and alarm test on ADAM 6717, and dry contact on WISE 4051. 
+9. I/O Box connecion exercise: wire sensor, swith, alarm to ADAM6717 (OPC UA gateway) and WISE4051 (WiFi gateway); conduct wet contact and alarm test on ADAM 6717, and dry contact on WISE 4051. 
 ## Demo video: Introduction to modbus and OPC UA connection 
 1. Modubus connection demo: https://youtu.be/_p7lfhecDnc
 2. OPCUA connection demo: https://youtu.be/EOVrADHYUzw
