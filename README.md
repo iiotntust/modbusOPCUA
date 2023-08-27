@@ -1,4 +1,15 @@
 # modbusOPCUA class 
+To familiar with Modbu and OPC UA protocols with exercises
+## Exercises
+1. Install software: a. For Modbus: ModbusPoll and ModbusSlave. (from https://www.modbustools.com/) b. For OPC UA: Edgelink (from Adventech.com)
+2. Modbus test: PC (ModbusPoll) to PC (ModbusSlave)
+3. Modbus/RTU test: PC (ModbusPoll) to device (humi/temp sensor, relay i/o, powermeter)
+4. Modbus/TCP test with WIFI Gateway WISE 4051: PC (ModbusPoll) to device (humi/temp sensor, relay i/o, powermeter)
+Notice: PC Modbus tool (ModbusPoll) should acquire data by the mapping register of WISE4051 (like 1001, 1002, 1003...), but devices original register.  
+6. OPC UA Data Center: create tags (ID1: humi/temp., ID2: I/O relay, ID3: Powermeter)
+7. OPC UA Service: configure tags for OPC server
+8. Install OPC UA client: UaExpert Client and access OPC UA data
+9. I/O Box: wire sensor, swith, alarm to ADAM6717 (OPC UA gateway) and WISE4051 (WiFi gateway); conduct wet contact and alarm test on ADAM 6717, and dry contact on WISE 4051. 
 ## Demo video: Introduction to modbus and OPC UA connection 
 1. Modubus connection demo: https://youtu.be/_p7lfhecDnc
 2. OPCUA connection demo: https://youtu.be/EOVrADHYUzw
