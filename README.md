@@ -21,4 +21,4 @@
 5. Serialport Utility(modify modbus slave ID)
 6. UAexpert (free OPC UA client)
 7. WISE4051 (use browser to login)
-
+8. EdgeLink_config (ADAM 6717 configration sample)
