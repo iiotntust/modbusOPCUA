@@ -34,3 +34,8 @@ NOTE: recommended free OPC UA Client https://www.unified-automation.com/
 6. UAexpert (free OPC UA client)
 7. WISE4051 (use browser to login)
 8. EdgeLink_config (ADAM 6717 configration sample)
+## Modbus/OPC UA Exercise Kit
+Main communication device: WISE-4051, ADAM-6717 (Products of Advantech)
+Main IoT device: ID:1- Humi/Temp sensor, ID:2- I/O relay, ID:3- Power Meter, and I/O box (Metal sensor, NPN type; Switch; Alarm) 
+![image](https://github.com/iiotntust/modbusOPCUA/assets/56021651/64d17c79-2b02-4d15-a699-8dbfc494342d)
+
