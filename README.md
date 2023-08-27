@@ -8,8 +8,9 @@ NOTE: Modbus - https://modbus.org/; OPC UA - https://opcfoundation.org/
 4. Modbus/TCP test with WIFI Gateway WISE 4051: PC (ModbusPoll) to the devices (humi/temp sensor, relay i/o, power meter); Notice: PC Modbus tool (ModbusPoll) should acquire data by the mapping register of WISE4051 (like 1001, 1002, 1003...), but the devices' original register.    
 6. OPC UA Data Center: create tags (ID1: humi/temp., ID2: I/O relay, ID3: Power meter) with EdgeLink
 7. OPC UA Service: configure tags for the OPC server
-8. Install the OPC UA client and approach the OPC UA server: UaExpert Client, and use it to access OPC UA data (built at OPC UA Service)
-9. I/O Box connection exercise: wire sensor, switch, and alarm to ADAM6717 (OPC UA gateway) and WISE4051 (WiFi gateway); conduct wet contact and alarm test on ADAM 6717 and dry contact on WISE 4051.
+8. Install the OPC UA client and approach the OPC UA server: UaExpert Client, and use it to access OPC UA data (built at OPC UA Service)  
+NOTE: recommended free OPC UA Client https://www.unified-automation.com/
+10. I/O Box connection exercise: wire sensor, switch, and alarm to ADAM6717 (OPC UA gateway) and WISE4051 (WiFi gateway); conduct wet contact and alarm test on ADAM 6717 and dry contact on WISE 4051.
 ## Demo video: Introduction to modbus and OPC UA connection 
 1. Modubus connection demo: https://youtu.be/_p7lfhecDnc
 2. OPCUA connection demo: https://youtu.be/EOVrADHYUzw
