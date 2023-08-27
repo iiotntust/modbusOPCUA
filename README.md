@@ -5,7 +5,7 @@ To familiarize with Modbus and OPC UA protocols with exercises
 2. Modbus test: PC (ModbusPoll) to PC (ModbusSlave)
 3. Modbus/RTU test: PC (ModbusPoll) to the devices (humi/temp sensor, relay i/o, power meter)
 4. Modbus/TCP test with WIFI Gateway WISE 4051: PC (ModbusPoll) to the devices (humi/temp sensor, relay i/o, power meter); Notice: PC Modbus tool (ModbusPoll) should acquire data by the mapping register of WISE4051 (like 1001, 1002, 1003...), but the devices' original register.    
-6. OPC UA Data Center: create tags (ID1: humi/temp., ID2: I/O relay, ID3: Power meter)
+6. OPC UA Data Center: create tags (ID1: humi/temp., ID2: I/O relay, ID3: Power meter) with EdgeLink
 7. OPC UA Service: configure tags for the OPC server
 8. Install the OPC UA client and approach the OPC UA server: UaExpert Client, and use it to access OPC UA data (built at OPC UA Service)
 9. I/O Box connection exercise: wire sensor, switch, and alarm to ADAM6717 (OPC UA gateway) and WISE4051 (WiFi gateway); conduct wet contact and alarm test on ADAM 6717 and dry contact on WISE 4051.
